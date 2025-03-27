@@ -15,5 +15,5 @@
       register: out
 
     - name: print a out
-      ansible.buitlin.debug:
+      ansible.builtlin.debug:
         msg: "{{out}}"
