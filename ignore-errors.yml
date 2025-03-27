@@ -1,9 +1,9 @@
-- name: Ignore errors
+- name: Ignore Errors
   hosts: localhost
   connection: local
   tasks:
-    - name: shell
-      ansible.builtin.shell:  cat /etc/password | grep john
+    - name: Shell
+      ansible.builtin.shell:  cat /etc/passwd | grep john
       register: out
 
     - name: Print
